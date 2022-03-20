@@ -78,13 +78,31 @@ input{
     height: 55px;
     border: 1px solid hsla(247, 4%, 52%, 0.301);
 }
+/* when error */
+.inputError{
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px 15px;
+    height: 55px;
+    border: 2px solid hsla(0, 100%, 60%, 0.671);
+}
+.pError{
+    font-style: italic;
+    color: hsla(0, 100%, 60%, 0.671);
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: hsl(247, 4%, 52%);
     font-weight: 700;
     font-size: 0.9rem;
     opacity: 1; /* Firefox */
   }
-p{
+h3{
     color: hsl(246, 25%, 77%);
     font-family: 'Poppins', sans-serif;
     font-size: 0.7rem;
